@@ -1,0 +1,144 @@
+h1{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    position: relative;
+    top:200px;
+}
+
+.pink{
+    background-color: #ccb6bc;
+    height: 500;
+    /*
+    justify-content: center;
+    align-items: center;*/
+
+}
+
+button{
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top:200px;
+ 
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+    
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+
+    font-family: serif;
+    font-size: 20px;
+
+    border-radius: 2px;
+}
+
+.button:hover{
+    background-color: #404040;
+    color: 	black;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+
+.pink > h1{
+    font-size: 20px;
+    font-family: serif;
+    font-weight: lighter;
+}
+
+/*end of pink class*/
+
+.green{
+    background-color: #8FBC8F;
+    height:1000;
+    margin-top: -30;
+}
+
+.green > h1{
+    font-weight: normal;
+}
+
+.flexGreen{
+    display: flex;
+    margin: auto;
+    width: 50%;
+    padding: 10px; 
+}
+
+.boxDown{
+    width: 500px;
+    border: solid 3px green;
+    padding: 50px;
+    margin-top: 430;
+
+}
+
+.boxUp{
+    width: 500px;
+    border: solid 3px green;
+    padding: 50px;
+    margin-top: 400;
+    margin-bottom: 30;
+}
+
+.boxDown > h2{
+    font-weight: normal;
+}
+
+.boxUp > h2{
+    font-weight: normal;
+}
+
+img{
+    width: 55px;
+    height: 55px;
+}
+
+/*end of green class*/
+
+.otherPink{
+    background-color: #ccb6bc;
+    height: 800;
+    margin-top: -45;
+}
+
+.otherPink > h2{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: sans-serif;
+    font-weight: normal;
+    position: relative;
+    font-size: 50;
+    top:50px;
+}
+
+.otherPink > img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80;
+    width: 250;
+    height: 300;
+    border-radius: 50%;
+}
+
+hr { 
+    border-bottom: 5px solid #b17e8d;
+    margin:3em 25%;
+}
+
+.otherPink > h3{
+    text-align: center;
+    font-weight: normal;
+    font-size: 35;
+}
