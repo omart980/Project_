@@ -7,6 +7,24 @@ h1{
     top:200px;
 }
 
+.tabs{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 0px;
+    color: black;
+    font-size: 20px;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+a, a:active, a:visited, a:focus {
+    text-decoration:none;
+    color: black;
+}
+
 .pink{
     background-color: #ccb6bc;
     height: 500;
@@ -142,3 +160,56 @@ hr {
     font-weight: normal;
     font-size: 35;
 }
+
+.WebLogo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.topGreen {
+    background-color: #d2e0d2;
+    height: 800px;
+    margin-top: 0px;
+}
+
+.img1Container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: -500px;   
+    
+}
+.img1{
+    margin-left: 300px;
+    margin-top: 45px;
+    margin-right: 10px;
+    width: 400px;
+    height: 500px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+}
+
+h4{
+    font: Georgia;
+    color:#404040;
+    font-size: 65px;
+    margin-top: -30px;
+    padding-left: 20px;
+    padding-bottom: -45px;
+    border-top: 5px solid #a77976;
+    border-bottom: 5px solid #a77976;
+    
+    
+}
+
+.descrip {
+    padding-left: 61px; 
+    padding-top: -200px;
+    padding-bottom: -400px;     
+}
+
+.SellySales {
+    display: flex;
+    flex-wrap: wrap;
+}
+
